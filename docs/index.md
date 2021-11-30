@@ -71,7 +71,12 @@ print(read_data_from_file(strFileName))
 
 In listing 1,  pickle.dump( ) writes the pickled object to file and pickle.load( ) reads the pickled object from file2. Figures 1 and 2, show this script running in the command prompt and the resulting pickled file in PyCharm, respectively.
 
-![Figure 1] (docs/Figure%1.png)
+![Figure 1](https://github.com/bburdel/IntroToProg-Python-Mod07/blob/main/docs/Figure%201.png "Figure 1")
+###### Figure 1. The code as run in command prompt. 
+
+![Figure 2](https://github.com/bburdel/IntroToProg-Python-Mod07/blob/main/docs/Figure%202.png "Figure 2") 
+###### Figure 2. The file created, written to, and read by the code in Listing 1 (as visualized in the PyCharm UI).
+
 
 ## Error (Exception) Handling
 When coding you can actively catch syntax errors or logic errors and debug them. However, there may be errors triggered by the user for which the script can account and avoid. When Python encounters an error during the execution5 of the code it will display an error (exception) message and stop running the script<sup>6</sup>. Code snippet 1, will trigger an exception by attempting to divide by zero (see Exception 1).

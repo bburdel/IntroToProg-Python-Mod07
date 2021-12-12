@@ -10,6 +10,7 @@ Pickle<sup>2</sup> is a built-in module that implements binary protocols to seri
   
   
 | Mode | Description                                                                                                                        |
+
 | ---- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | rb	 | Read from a binary file. If the file does not exist, Python will produce an error.                                                 |
 | wb	 | Write to a binary file. If the file exists, its contents are overwritten. If the file does not exists, it is created.              |
@@ -17,7 +18,6 @@ Pickle<sup>2</sup> is a built-in module that implements binary protocols to seri
 | rb+	 | Read from and write to a binary file. If the file exists, its contents are overwritten. If the file does not exist, it is created. |
 | wb+	 | Write to and read from a binary file. If the file exists, its contents are overwritten. If the file does not exist, it is created. |
 | ab+	 | Append and read from a binary file. If the file exists, new data is appended to it. If the file does not exist, it is created.     |
-
 ###### Table 1. Select access modes for binary files. 
 
 Now we will walk through some basic pickling code. You can see the code in Terminal and the resulting file in Figures 1 and 2. 
